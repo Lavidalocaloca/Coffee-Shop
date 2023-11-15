@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coffee Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header-section">
+        <div class="container container-header">
+            <div class="header">
+                <nav class="nav-main">
+                    <ul class="nav-main__list">
+                        <li class="nav-main__item">
+                            <a class="nav-main__link nav-main__link_selected" href="#">Hlavní</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">O nás</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Rezervace</a>
+                        </li>
+                    </ul>
+                    <img class="header__logo" src="logo.png" alt="#">
+                    <ul class="nav-main__list">
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">E-shop</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-action">
+                    <button class="header-action__search material-symbols-outlined">search</button>
+                    <button class="header-action__cart material-symbols-outlined">local_mall</button>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="banner-section">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-info">
+                        <h2 class="banner__header">Staňte se mistrem kávy</h2>
+                        <p class="banner__text">Někdo kávu jenom prodává, my jí rozumíme</p>
+                        <button class="bunner_btn btn-primary">Vyzkoušet si</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="container">
+                <ol class="features section-main">
+                    <li class="features__item">
+                        <span class="features__item_dark">01</span> Nejjemnější chuť
+                        <img class="features__img" src="features-1.png" alt="#">
+                    </li>
+                    <li class="features__item">
+                        <span class="features__item_dark">02</span> Pečlivě zpracována
+                        <img class="features__img" src="features-2.png" alt="#">
+                    </li>
+                    <li class="features__item">
+                        <span class="features__item_dark">03</span> Přírodní produkt
+                        <img class="features__img" src="features-3.png" alt="#">
+                    </li>
+                </ol>
+            </div>
+            <section id="history-section" class="section-main">
+                <div class="container">
+                    <div class="history__wrap">
+                        <img class="history__wrap_img" src="features-2.png" alt="#">
+                        <img class="history__wrap_img" src="features-4.png" alt="#">
+                        <img class="history__wrap_img" src="features-1.png" alt="#">
+                        <div class="history">
+                            <h2 class="history__title section-title">Náš příběh</h2>
+                            <h3 class="history__subtitle section-subtitle">Zdravý životní styl</h3>
+                            <p class="history__text section-text">Jsme tým, který má dlouholeté zkušenosti v oblasti prodeje. Od roku 2000 provozujeme kamenný obchod, a o několik let později jsme reagovali na vzrůstající oblibu internetového nakupování a založili e-shop s kvalitní kávou.</p>
+                        </div>
+                </div>
+            </section>
+            <section id="popular-section" class="section-main">
+                <div class="container">
+                    <h2 class="section-title">Popularní produkty</h2>
+                    <h3 class="section-subtitle">Popularní káva</h3>
+                    <div class="popular__wrap">
+                    <div class="popular">
+                        <img class="popular__img" src="popular-1.png" alt="#">
+                        <div class="rating">
+                            <h4 class="rating__title">Káva</h4>
+                            <ul class="rating__list">
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                            </ul>
+                        </div>
+                        <h3 class="popular__title">Brazílie Santos</h3>
+                        <b class="popular__price">Cena - <strong class="price__dark">230 Kč</strong></b>
+                        <button class="popular__btn btn-primary"><span class="material-symbols-outlined">local_mall</span>Koupit</button>
+                    </div>
+                    <div class="popular">
+                        <img class="popular__img" src="popular-1.png" alt="#">
+                        <div class="rating">
+                            <h4 class="rating__title">Káva</h4>
+                            <ul class="rating__list">
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                            </ul>
+                        </div>
+                        <h3 class="popular__title">Kuba Serrano Lavado</h3>
+                        <b class="popular__price">Cena - <strong class="price__dark">230 Kč</strong></b>
+                        <button class="popular__btn btn-primary"><span class="material-symbols-outlined">local_mall</span>Koupit</button>
+                    </div>
+                    <div class="popular">
+                        <img class="popular__img" src="popular-1.png" alt="#">
+                        <div class="rating">
+                            <h4 class="rating__title">Káva</h4>
+                            <ul class="rating__list">
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                            </ul>
+                        </div>
+                        <h3 class="popular__title">San Ramón El Gusto</h3>
+                        <b class="popular__price">Cena - <strong class="price__dark">230 Kč</strong></b>
+                        <button class="popular__btn btn-primary"><span class="material-symbols-outlined">local_mall</span>Koupit</button>
+                    </div>
+                    </div>
+                    <a class="popular__link btn-primary" href="#">Všechny produkty</a>
+                </div>
+            </section>
+            <section id="discover-section" class="section-main">
+                <div class="container">
+                    <div class="discover-wrap">
+                        <img class="discover__img" src="discover.png" alt="#">
+                        <div class="discover">
+                            <h3 class="discover__title section-subtitle">Krups Evidence</br> Plus EA894810</h3>
+                            <p class="section__text">Automatický kávovar na espresso Krups Evidence Plus EA894810 je navržený pro přípravu dokonalé kávy v pohodlí domova. Intuitivní ovládání, proces extrakce promyšlený do nejmenšího detailu a jednoduchá údržba zaručují radost z přípravy kávy. Získejte maximum ze svých kávových zrn díky systému Quattro Force a váš šálek bude plný lahodné chuti a skvělého aroma. Široký výběr nápojů obohacen o nápoje s dokonalou pěnou, to vše podtržené krásným designem, který doplní každý kuchyňský prostor.</p>
+                            <a class="discover__link btn-primary" href="#">Objevit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="menu-section" class="section-main">
+                <div class="container">
+                <h2 class="section-title">Menu</h2>
+                <h3 class="section-subtitle">Nejlepší výběr kávy</h3>
+                <ul class="menu__wrap">
+                    <li class="menu">
+                        <img class="menu__img" src="menu-1.png" alt="#">
+                        <h3 class="menu__title">Americano</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-2.png" alt="#">
+                        <h3 class="menu__title">Latte</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-3.png" alt="#">
+                        <h3 class="menu__title">Cappuccino</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-4.png" alt="#">
+                        <h3 class="menu__title">Flatwhite</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-5.png" alt="#">
+                        <h3 class="menu__title">Espresso</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-6.png" alt="#">
+                        <h3 class="menu__title">Mocha</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-7.png" alt="#">
+                        <h3 class="menu__title">Double Espresso</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                    <li class="menu">
+                        <img class="menu__img" src="menu-8.png" alt="#">
+                        <h3 class="menu__title">Frappuchino</h3>
+                        <b class="menu__price">100 Kč</b>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <section id="testimonial-section" class="section-main">
+                <div class="container">
+                    <h2 class="section-title">Recenze</h2>
+                    <h3 class="section-subtitle">Recenze našich zákazníků</h3>
+                    <div class="testimonial-wrap">
+                        <div class="testimonial">
+                            <div class="testimonial-data">
+                                <img class="testimonial__img" src="testimonial-2.png" alt="#">
+                                <p class="testimonial__text section__text">Výborná káva, již jsem ochutnal z vaší pražírny více káv, ale tuto vřele doporučuji. Je tam opravdu cítit vůně tabáku. Až doposud jsem pil kávu rozpustnou ze supermarketu, a teď se sám sobě divím jak jsem ji mohl pít. Každá káva od vás je lahůdka.</p>
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="testimonial-person">
+                                    <span class="testimonial__name">Wanda Pokorná</span>
+                                    <span class="testimonial__position">Produkční manažerka</span>
+                                </div>
+                                <ul class="testimonial__list rating__list">
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-data">
+                                <img class="testimonial__img" src="testimonial-1.png" alt="#">
+                                <p class="testimonial__text section__text">Vybral jsem zde na test 4 kavy s nizkou aciditou a tato byla druha nejkyselejsi. Nadherna vune, ale pro nekoho kdo nema rad aciditu to stale neni. Zkousel jsem i s vyssi teplotou, jemne namleti co to slo a 8-9g v single PF.</p>
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="testimonial-person">
+                                    <span class="testimonial__name">Jan Novák</span>
+                                    <span class="testimonial__position">Obchodní zástupce</span>
+                                </div>
+                                <ul class="testimonial__list rating__list">
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                    <li class="rating__item material-symbols-outlined">star_rate_half</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-action">
+                        <div class="testimonial-count">
+                            <b class="testimonial-count__text">2/6 Lidí</b>
+                            <progress class="testimonial-count__progress" value="40" max="100"></progress>
+                        </div>
+                        <div class="testimonial-btn-wrap">
+                            <button class="testimonial-btn material-symbols-outlined">west</button>
+                            <button class="testimonial-btn material-symbols-outlined testimonial-btn_active">east</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-reservation" class="section-main">
+                <div class="container">
+                    <div class="reservation-wrap">
+                        <div class="reservation-map"></div>
+                        <form class="reservation">
+                            <h2 class="reservation__title section-title">Rezervace</h2>
+                            <h3 class="reservation__subtitle section-subtitle">Rezervujte si stůl online</h3>
+                            <input class="reservation__input" type="text" value="4 person">
+                            <input class="reservation__input" type="text" value="12.25, 2020">
+                            <input class="reservation__input" type="text" value="11:00 AM">
+                            <button class="reservation__btn btn-primary">Rezervovat</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section id="section-news" class="section-main">
+                <div class="container">
+                    <h2 class="section-title">Blog</h2>
+                    <h3 class="section-subtitle">Nejnovější články</h3>
+                    <div class="news-wrap">
+                        <div class="news">
+                            <img class="news__img" src="news-1.png" alt="#">
+                            <div class="news-description">
+                                <div class="news-info">
+                                    <span class="news__author"><span class="news__author_dark">By: </span>rasaline</span>
+                                    <time class="news__date" datetime="2021-01-21">23.01.2021</time>
+                                </div>
+                                <p class="news__text">Barista doporučuje</p>
+                                <a class="news__link" href="#">Číst více <span class="material-symbols-outlined">arrow_forward</span></a>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <img class="news__img" src="news-2.png" alt="#">
+                            <div class="news-description">
+                                <div class="news-info">
+                                    <span class="news__author"><span class="news__author_dark">By: </span>rasaline</span>
+                                    <time class="news__date" datetime="2021-01-21">23.01.2021</time>
+                                </div>
+                                <p class="news__text">Co koupit k Valentýnu?</p>
+                                <a class="news__link" href="#">Číst více <span class="material-symbols-outlined">arrow_forward</span></a>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <img class="news__img" src="news-3.png" alt="#">
+                            <div class="news-description">
+                                <div class="news-info">
+                                    <span class="news__author"><span class="news__author_dark">By: </span>rasaline</span>
+                                    <time class="news__date" datetime="2021-01-21">23.01.2021</time>
+                                </div>
+                                <p class="news__text">Základní průvodce kávou</p>
+                                <a class="news__link" href="#">Číst více <span class="material-symbols-outlined">arrow_forward</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer-section">
+                <div class="container">
+                    <div class="footer">
+                        <img class="footer__img" src="logo-2.png" alt="#">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Hlavní</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">O nás</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Menu</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Rezervace</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Blog</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">E-Shop</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Kontakt</a>
+                            </li>
+                        </ul>
+                        <form class="footer-form">
+                            <input class="footer__input" type="email" placeholder="Enter your email">
+                            <button class="footer-form__btn material-symbols-outlined">east</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <p class="footer-copyright__text">La vida loca (C). All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+    </main>
+</body>
+</html>
